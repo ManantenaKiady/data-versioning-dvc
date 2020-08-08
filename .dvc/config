@@ -1,4 +1,8 @@
 [core]
     remote = gcp_remote
+[cache]
+    gs = gscache
 ['remote "gcp_remote"']
     url = gs://data-versioning/
+['remote "gscache"']
+    url = gs://data-versioning/cache/
